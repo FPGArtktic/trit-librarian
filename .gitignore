@@ -1,0 +1,26 @@
+CLAUDE.md
+SPEC.md
+
+# generated state and weights
+data/
+models/
+uploads/
+dist/
+
+# sources — never commit a book
+*.gguf
+*.epub
+*.mobi
+*.azw3
+*.pdf
+!tests/fixtures/**
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+
+# local config
+.env
